@@ -9,8 +9,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // View and download limit configuration
-const viewLimit = 1;
-const downloadLimit = 1;
+const viewLimit = 100;
+const downloadLimit = 100;
 
 // JWT Middleware
 const authenticateToken = (req, res, next) => {
