@@ -18,24 +18,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'NeoLearn Academy | Cyberpunk Education',
-  description: 'Immersive educational courses in a cyberpunk-themed learning environment',
+  title: 'FramePulse | Academic Video Archive',
+  description: 'Access high-quality screen recordings curated for the batch',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/favicon.ico', // Simple way to point to your new icon
     apple: '/apple-icon.png',
   },
 }
